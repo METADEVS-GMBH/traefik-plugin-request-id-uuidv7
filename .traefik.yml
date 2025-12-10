@@ -1,12 +1,10 @@
-displayName: Demo Plugin
+displayName: X-Request-ID-UUIDV7
 type: middleware
-iconPath: .assets/icon.png
 
-import: github.com/traefik/plugindemo
+import: github.com/METADEVS-GMBH/traefik-plugin-request-id-uuidv7
 
-summary: '[Demo] Add Request Header'
+summary: 'Injects X-Request-ID header with a UUIDv7 value into HTTP requests and responses.'
 
 testData:
-  Headers:
-    X-Demo: test
-    X-URL: '{{URL}}'
+  HeaderName: "X-Request-ID"
+  Enabled: true
