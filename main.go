@@ -1,5 +1,4 @@
-// Package traefik_request_id a Traefik plugin to add request ID to incoming HTTP requests.
-
+// Package requestid a Traefik plugin to add request ID to incoming HTTP requests.
 package requestid
 
 import (
