@@ -8,8 +8,10 @@ import (
 	"github.com/google/uuid"
 )
 
-const defaultHeader = "X-Request-ID"
-const defaultEnabled = true
+const (
+	defaultHeader  = "X-Request-ID"
+	defaultEnabled = true
+)
 
 // Config the plugin configuration.
 type Config struct {
