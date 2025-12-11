@@ -1,4 +1,6 @@
 // Package traefik_plugin_request_id_uuidv7 a Traefik plugin to add request ID to incoming HTTP requests.
+//
+//nolint:var-naming
 package traefik_plugin_request_id_uuidv7
 
 import (

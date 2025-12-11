@@ -1,3 +1,4 @@
+//nolint:var-naming
 package traefik_plugin_request_id_uuidv7
 
 import (
