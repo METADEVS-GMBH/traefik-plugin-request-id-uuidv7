@@ -1,3 +1,4 @@
+//nolint:revive,stylecheck // Traefik plugin requires this package name
 package traefik_plugin_request_id_uuidv7
 
 import (
