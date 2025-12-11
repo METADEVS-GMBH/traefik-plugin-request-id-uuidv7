@@ -4,6 +4,10 @@ run:
   skip-dirs: []
 
 linters-settings:
+  revive:
+    rules:
+      - name: var-naming
+        disabled: true
   govet:
     enable-all: true
     disable:
